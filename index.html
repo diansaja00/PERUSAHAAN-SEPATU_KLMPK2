@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KICKCRAFT - Perusahaan & Produsen Sepatu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container navbar">
+            <div class="logo">KICK<span>CRAFT</span></div>
+            <nav>
+                <ul>
+                    <li><a href="#beranda">Beranda</a></li>
+                    <li><a href="#tentang">Tentang</a></li>
+                    <li><a href="#koleksi">Koleksi Produk</a></li>
+                    <li><a href="#keunggulan">Keunggulan</a></li>
+                    <li><a href="#kontak" class="btn-contact">Hubungi Kami</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="beranda" class="hero">
+        <div class="container">
+            <h1>Langkah Nyaman, Desain Berkarakter</h1>
+            <p>Manufaktur dan brand sepatu lokal dengan material premium, daya tahan tinggi, dan desain ergonomis untuk setiap gaya hidup.</p>
+            <a href="#koleksi" class="btn-primary">Lihat Koleksi Sepatu</a>
+        </div>
+    </section>
+
+    <section id="tentang" class="section">
+        <div class="container text-center">
+            <h2 class="section-title">Dedikasi Pada Setiap Jahitan</h2>
+            <p class="section-desc">Didirikan sejak 2018, KICKCRAFT telah memproduksi lebih dari 100.000 pasang sepatu berkualitas tinggi. Kami menggabungkan kerajinan tangan tradisional dengan teknologi produksi modern untuk menghasilkan alas kaki yang kokoh, modis, dan nyaman digunakan seharian.</p>
+        </div>
+    </section>
+
+    <section id="koleksi" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Koleksi Unggulan</h2>
+            <div class="grid-3">
+                <div class="card-shoe">
+                    <div class="shoe-img">Koleksi Sneakers</div>
+                    <h3>Urban Runner Vol. 1</h3>
+                    <p class="shoe-category">Sneakers Casual</p>
+                    <p>Sepatu ringan dengan bahan breathable mesh dan insole empuk untuk aktivitas harian.</p>
+                    <button class="btn-order" data-shoe="Urban Runner Vol. 1" data-cat="Sneakers Casual">Minta Penawaran / Beli</button>
+                </div>
+                <div class="card-shoe">
+                    <div class="shoe-img">Koleksi Leather</div>
+                    <h3>Heritage Leather Boots</h3>
+                    <p class="shoe-category">Formal & Workwear</p>
+                    <p>Terbuat dari 100% kulit sapi asli dengan konstruksi Goodyear welt yang tahan lama.</p>
+                    <button class="btn-order" data-shoe="Heritage Leather Boots" data-cat="Formal & Workwear">Minta Penawaran / Beli</button>
+                </div>
+                <div class="card-shoe">
+                    <div class="shoe-img">Koleksi Sport</div>
+                    <h3>AeroStride Performance</h3>
+                    <p class="shoe-category">Olahraga & Lari</p>
+                    <p>Didesain dengan outsole karet anti-selip dan dukungan penyerapan benturan ekstra.</p>
+                    <button class="btn-order" data-shoe="AeroStride Performance" data-cat="Olahraga & Lari">Minta Penawaran / Beli</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="keunggulan" class="section">
+        <div class="container">
+            <h2 class="section-title">Mengapa Memilih Kami?</h2>
+            <div class="grid-3">
+                <div class="card-feature">
+                    <h3>Material Premium</h3>
+                    <p>Menggunakan kulit, kain, dan karet sintetis grade A yang dipilih secara ketat.</p>
+                </div>
+                <div class="card-feature">
+                    <h3>Desain Ergonomis</h3>
+                    <p>Disesuaikan dengan kontur kaki untuk kenyamanan maksimal tanpa rasa pegal.</p>
+                </div>
+                <div class="card-feature">
+                    <h3>Kapasitas Produksi</h3>
+                    <p>Siap melayani pesanan skala retail maupun pesanan khusus (*custom/B2B*) perusahaan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontak" class="section bg-dark">
+        <div class="container text-center text-white">
+            <h2 class="section-title text-white">Bekerja Sama Dengan Kami</h2>
+            <p>Ingin memesan sepatu khusus perusahaan, menjadi distributor, atau melakukan pembelian grosir?</p>
+            <div class="contact-info">
+                <p><strong>Email:</strong> partnership@kickcraft.com</p>
+                <p><strong>WhatsApp:</strong> +62 812-9988-7766</p>
+                <p><strong>Pabrik & Showroom:</strong> Bandung, Jawa Barat, Indonesia</p>
+            </div>
+        </div>
+    </section>
+
+    <div id="shoeModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3 id="modalTitle">Nama Sepatu</h3>
+            <p id="modalCategory" class="modal-cat">Kategori</p>
+            <p>Tertarik dengan seri ini? Kirim pesan langsung ke tim sales kami untuk informasi harga grosir atau pesanan khusus.</p>
+            <a href="https://wa.me/6281299887766" target="_blank" class="btn-wa">Hubungi via WhatsApp</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2026 KICKCRAFT Shoes Co. Seluruh Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
